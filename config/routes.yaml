@@ -1,0 +1,7 @@
+triangle:
+  path:      /triangle/{a}/{b}/{c}
+  controller: App\Controller\ShapeController::triangle
+
+circle:
+  path:      /circle/{radius}
+  controller: App\Controller\ShapeController::circle
